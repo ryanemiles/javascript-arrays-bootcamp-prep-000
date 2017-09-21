@@ -23,3 +23,8 @@ function removeElementFromBeginningOfArray(arr) {
   var newArray = arr.slice(1);
   return newArray;
 }
+
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  var newArray = arr.pop();
+  return newArray;
+}
